@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: beige;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(44, 5, 128);
+    font-weight: 700;
+    font-size: 1.8em
+}
+
+nav a{
+    color: rgb(44, 5, 128);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-right: 30px;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.main_div{
+    padding-top: 100px;
+}
+
+
+section {
+    padding: 100px 200px;
+    min-height: 100vh;  
+}
+
+
+footer{
+    background-color: rgb(202, 218, 198);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    min-width: 40vh;
+    color: red;
+    font-weight: 10px;
+    font-style: italic;
+    font-weight: bold; 
+}
+
+
+#projects{
+    background-color: rgb(164, 175, 238);
+}
+
+.p1234 div{
+    background-color: beige;
+    padding: 20px 20px;
+    border-style: solid;
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+    border-radius: 5%;
+    text-align: center;
+    align-items: center;
+    border-color: black;
+    border-width: 3px;
+}
+
+.p1234{
+    padding: 40px;
+    display: flex;
+    
+}
+
+
+.p1234 div:hover{
+    background-color: rgb(208, 208, 138);
+    border-color: white;
+}
+
+
+.brand:hover{
+    color: blue;
+    
+}
+
+.co{
+    padding-top: 150px;
+}
+
+.img1{
+    background-image: url(https://w0.peakpx.com/wallpaper/969/270/HD-wallpaper-interesting-computer-vision-projects-with-codes-by-abhay-parashar-the-pythoneers.jpg);
+    background-position: 75%;
+    background-size: cover;
+
+}
+
+.img2{
+    background-image: url(https://w0.peakpx.com/wallpaper/969/270/HD-wallpaper-interesting-computer-vision-projects-with-codes-by-abhay-parashar-the-pythoneers.jpg);
+    background-position: 75%;
+    background-size: cover;
+
+}
+
+.img3{
+    background-image: url(https://w0.peakpx.com/wallpaper/969/270/HD-wallpaper-interesting-computer-vision-projects-with-codes-by-abhay-parashar-the-pythoneers.jpg);
+    background-position: 75%;
+    background-size: cover;
+
+}
+
+.img4{
+    background-image: url(https://w0.peakpx.com/wallpaper/969/270/HD-wallpaper-interesting-computer-vision-projects-with-codes-by-abhay-parashar-the-pythoneers.jpg);
+    background-position: 75%;
+    background-size: cover;
+
+}
+
+#main{
+    background-image: url(https://img.freepik.com/premium-vector/welcome-slogan-cute-hand-drawn-text-black-glossy-housewarming-banner-header-inscription-lettering-sign-poster-sticker-scrapbook-stamp-web-page-foil-diy-card-social-media-meeting-invitation_145044-184.jpg);
+    background-position: top;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+
+}
